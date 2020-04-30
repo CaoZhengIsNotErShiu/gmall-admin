@@ -172,7 +172,7 @@ export default {
     // 获取基本销售属性列表
     getBaseSaleAttrList() {
       spu.getBaseSaleAttrList().then(response => {
-        this.baseSaleAttrList = response.data
+        this.baseSaleAttrList = response.data.data
       })
     },
 
